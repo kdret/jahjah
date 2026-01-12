@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Iyayooo</title>
+    <style>
+        :root {
+            --primary-pink: #ff85a1;
+            --soft-pink: #fbb1bd;
+            --dark-pink: #ff477e;
+            --bg-color: #fff0f3;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: var(--bg-color);
+            color: #444;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: pink;
+            width: 100%;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        /* Countdown Style in Header */
+        #timer {
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: var(--dark-pink);
+            margin: 15px 0;
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+        }
+
+        .container {
+            max-width: 900px;
+            width: 90%;
+            margin: 30px auto;
+        }
+
+        .gallery-title {
+            text-align: center;
+            color: var(--dark-pink);
+            margin: 40px 0 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .photo-card {
+            background: white;
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .photo-card:hover {
+            transform: translateY(-10px) rotate(2deg);
+        }
+
+        .photo-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .photo-caption {
+            margin-top: 10px;
+            font-style: italic;
+            color: #777;
+            text-align: center;
+        }
+
+        .letter {
+            background: #fff9fa;
+            border-left: 5px solid var(--primary-pink);
+            padding: 40px;
+            margin: 40px 0;
+            line-height: 1.8;
+            border-radius: 0 15px 15px 0;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.02);
+        }
+
+        .interactive-box {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            margin: 20px 0;
+        }
+
+        button {
+            background-color: var(--primary-pink);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        button:hover { background-color: var(--dark-pink); }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>To Jah ❤️</h1>
+
+        <div id="timer">Loading countdown...</div>
+        <p style="font-weight: bold; color: white;">Until your next big day!</p>
+
+        <div style="background: white; padding: 20px; border-radius: 20px; max-width: 450px; box-shadow: 0 10px 20px rgba(0,0,0,0.05); margin: 20px auto; text-align: center;">
+            <div style="display: flex; align-items: center; justify-content: center; gap: 12px; margin-bottom: 15px;">
+                <div style="font-size: 1.8rem; animation: spin 4s linear infinite; display: inline-block;">🎵</div>
+                <div style="font-weight: bold; color: #ff477e; font-size: 1.1rem;">This you, jah</div>
+            </div>
+            <iframe 
+                style="border-radius:12px" 
+                src="https://open.spotify.com/embed/track/07koEqsKHZTlGVMC9eoEjO?utm_source=generator" 
+                width="100%" 
+                height="152" 
+                frameBorder="0" 
+                allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <div class="interactive-box">
+            <h2>A Daily Reminder</h2>
+            <p id="reason-text" style="font-size: 1.2rem; min-height: 40px;">Click the button for a surprise!</p>
+            <button onclick="newReason()">Click Me</button>
+        </div>
+
+        <h2 class="gallery-title">PICSSSS (IYKYK)</h2>
+        <div class="gallery">
+            <div class="photo-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa-xyjPx3FqM-RiJpv9MWtBOL1aS21ta5ZUQ&s" alt="Memory 1">
+                <div class="photo-caption">capybaraaa</div>
+            </div>
+            <div class="photo-card">
+                <img src="https://i.pinimg.com/736x/b9/54/eb/b954eb8363a2c7367a99e6588f4eeac1.jpg" alt="Memory 2">
+                <div class="photo-caption">khalidddd.</div>
+            </div>
+            <div class="photo-card">
+                <img src="https://thumb.ac-illust.com/6c/6cd0dd9defb1c191af0f1dbc4bbd5804_w.jpeg" alt="Memory 3">
+                <div class="photo-caption">carnationsss.</div>
+            </div>
+        </div>
+
+        <div class="letter">
+            <h3>letter 4 u ba</h3>
+            <p>Hello Gorg,</p>
+            <p>I wanted to create something special to show you how much I appreciate you. You are the highlight of my every day (yie), and I'm so lucky to have you by my side, just know that I'm always here to support you hehe mwaps. Goodluck always my future nurse!</p>
+            <p>Love always, <br> <strong>Zel/Ella</strong></p>
+        </div>
+
+        <div onclick="secretAlert()" style="cursor: pointer; font-size: 3rem; text-align: center; margin-top: 40px;">
+            💖
+        </div>
+
+    </div>
+
+    <script>
+        // COUNTDOWN SCRIPT
+        const targetDate = new Date("May 4, 2026 00:00:00").getTime();
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const diff = targetDate - now;
+            
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const secs = Math.floor((diff % (1000 * 60)) / 1000);
+            
+            document.getElementById("timer").innerHTML = `${days}d ${hours}h ${mins}m ${secs}s`;
+        }
+        setInterval(updateCountdown, 1000);
+
+        // REASONS SCRIPT
+        const reasons = [
+            "Your laugh is my favorite song.",
+            "You make every day feel like an adventure.",
+            "I love the way you care for others.",
+            "Continue on being the most gorgeous person.",
+            "Your messages are the highlight of my day."
+        ];
+
+        function newReason() {
+            const randomIndex = Math.floor(Math.random() * reasons.length);
+            document.getElementById('reason-text').innerText = reasons[randomIndex];
+        }
+
+        // SECRET ALERT SCRIPT
+        function secretAlert() {
+            alert("You just clicked the secret heart! Happy Birthday, Jah!!! I love you alwayssss");
+        }
+    </script>
+</body>
+</html>
